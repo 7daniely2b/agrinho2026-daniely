@@ -10,6 +10,7 @@ function responder(correto){
         resultado.innerHTML =
         "❌ Resposta incorreta. Precisamos preservar os recursos naturais.";
     }
+}
 let agua = 0;
 let arvores = 0;
 
