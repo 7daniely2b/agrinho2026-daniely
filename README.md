@@ -1,1 +1,5 @@
-# Agrinho2026-Daniely
+#agrinho/
+│
+├── index.html
+├── style.css
+└── script.js
