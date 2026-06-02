@@ -41,3 +41,10 @@ else{
 }
 
 document.getElementById("dica").innerHTML = mensagem;
+let pontos = 0;
+
+function respostaCorreta(){
+    pontos++;
+    document.getElementById("pontos").innerHTML =
+    "Pontuação: " + pontos;
+}
