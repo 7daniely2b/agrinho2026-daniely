@@ -17,4 +17,4 @@ Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.
 - Galeria de imagens
 
 ## Autor
-Daniley
+Daniely
