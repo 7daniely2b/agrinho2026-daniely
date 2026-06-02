@@ -10,5 +10,19 @@ function responder(correto){
         resultado.innerHTML =
         "❌ Resposta incorreta. Precisamos preservar os recursos naturais.";
     }
+let agua = 0;
+let arvores = 0;
 
-}
+const contador = setInterval(() => {
+
+    agua += 100;
+    arvores += 2;
+
+    document.getElementById("agua").innerHTML = agua;
+    document.getElementById("arvores").innerHTML = arvores;
+
+    if(agua >= 5000){
+        clearInterval(contador);
+    }
+
+}, 50);
